@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do Cliente | La Lune</title>
+</head>
+<body>
+    <div class="access-group">
+        <div class="logo">
+            <a class="nav-brand" href="/">
+                <img src="" alt="logo">
+            </a>
+        </div>
+    </div>
+
+    <p class="text-center">ACESSAR COM</p>
+
+    <div class="btn-social-group">
+        <div id="wo" class="row">
+            <a class="btn pl-1 pr-1 btn-lg btn-google font-weight-normal text-white btn-block text-uppercase auth-link" href="https://accounts.google.com/o/oauth2/auth?client_id=372085685540-dbdhuj6mpsm6dh3kuetttnjq2g1lfpad.apps.googleusercontent.com&response_type=code&redirect_uri=https%3A%2F%2Fwww.deliway.com.br%2Fauthenticate%3Fauthclient%3Dgoogle&xoauth_displayname=My%20Application&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&state=840b0e59a25f072deaf2ae38c147a57b3c1dcbaec4641aaa2dc9400d7566a382" target="blank" title="Google"><i class="fab fa-google mr-2"></i>Google</a>
+
+            <a class="btn pl-1 pr-1 btn-lg btn-facebook font-weigth-normal text-white btn-block text-uppercase auth-link" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=589599041629060&kid_directed_site=0&app_id=589599041629060&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D589599041629060%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.deliway.com.br%252Fauthenticate%253Fauthclient%253Dfacebook%26xoauth_displayname%3DMy%2BApplication%26scope%3Demail%252C%2Bpublic_profile%26state%3D2ce54ee93acc0b629f15b6f0a6a6f15864a643791524f58eb358835c98ee819d%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D23e4d383-557b-4871-a0d9-7dddc7bef559%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.deliway.com.br%2Fauthenticate%3Fauthclient%3Dfacebook%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D2ce54ee93acc0b629f15b6f0a6a6f15864a643791524f58eb358835c98ee819d%23_%3D_&display=page&locale=pt_BR&pl_dbl=0" target="blank" title="Facebook" data-popup-width="860" data-popup-height="480"><i class="fab fa-facebook mr-2"></i>Facebook</a>
+        </div>
+    </div>
+
+    <div class="dividir">
+        <strong class="dividir-titulo ng-binding">ou</strong>
+    </div>
+
+    <div class="justify-content">
+        <ul class="nav nav-tabs" id="tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="registro-tab" data-toggle="tab" href="#registro" role="tab" aria-controls="registro" aria-selected="true">CRIAR CONTA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">JÁ TENHO CONTA</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="tab-access">
+
+        <!--registro-->
+
+        <div class="tab-pane" id="registro" role="tabpanel" aria-labelledby="registro-tab">
+            <form method="post" action="/cadastro-cliente" class="form-validity"></form>
+
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>

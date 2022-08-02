@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5ef;
+}
+
+.menu{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li{
+    width: 475px;
+    float:left;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+#cardapio{
+    /*display: flex;
+    flex-direction: row;*/
+    justify-content:center;
+}
+
+#cardapio img{
+    padding: 5px;
+    width: 400px;
+    height: 220px;
+    border-radius: 50px;
+}
+
+#item{
+    /*display: flex;
+    flex-direction: row;*/
+    text-align: center;
+    color:#000;
+
+    /*background-color: #ac1e1e;*/
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#item p{
+    font-size: 14px;
+}
+
+#item button{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#item button:hover{
+    background-color: red;
+}
+
