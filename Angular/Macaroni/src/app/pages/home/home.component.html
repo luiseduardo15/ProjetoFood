@@ -1,39 +1,50 @@
 <div class="banner">
-    <h1>LA LUNE ITALIAN MACARONI</h1>
-    <h2>A TASTE OF ROMA</h2>
+  <h1>LA LUNE ITALIAN MACARONI</h1>
+  <h2>A TASTE OF ROMA</h2>
 
-    <div class="content">
-        <a routerLink="menu" class="mb-5">Peça já <i class="bi bi-arrow-right"></i></a>
-    </div>
+  <div class="content">
+    <a routerLink="menu" class="mb-5">Peça já <i class="bi bi-arrow-right"></i></a>
+  </div>
 </div>
 
-<div class="step">
+<div class="container mt-5 mb-4">
+  <h1 class="text-center
+    ">Pedidos da casa</h1>
+  <div class="row">
 
-    <h1>Pedidos da casa</h1>
-
-    <div class="row">
-        <div class="Box">
-            <div class="col-lg-4">
-                <h1>1</h1>
-                <p>Selecione</p>
-            </div>
-
-            <div class="col-lg-4">
-                <h1>2</h1>
-                <p>Preencha os detalhes</p>
-            </div>
-
-            <div class="col-lg-4">
-                <h1>3</h1>
-                <p>Acompanhamento</p>
-            </div>
-
-            <div class="col-lg-4">
-                <h1>4</h1>
-                <p>Retirada</p>
-            </div>
-
-        </div>
-
+    <div class="col-lg-4">
+      <div class="Box">
+        <h1>1</h1>
+        <p>Selecione</p>
+      </div>
     </div>
+
+    <div class="col-lg-4">
+      <div class="Box">
+        <h1>2</h1>
+        <p>Preencha os detalhes</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="Box">
+        <h1>3</h1>
+        <p>Acompanhamento</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let fd of foodData">
+      <div class="foodbox">
+        <img src="{{fd.foodImg}}" alt="">
+        <h1>{{fd.foodName}}</h1>
+        <p>{{fd.foodPrice}}</p>
+      </div>
+    </div>
+  </div>
 </div>
