@@ -12,74 +12,88 @@ export class OrderDetailsService {
   foodDetails = [
     {
       id:1,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 200,
-      foodImg: "assets/aleksandra-tanasiienko-0y6eMd8vevA-unsplash.jpg"
+      foodName: "Fettucine à Bolonhesa",
+      foodDetails:"Bolonhesa com molho de tomate",
+      foodPrice: 17,
+      foodImg: "assets/pasta-fettuccine-bolognese-with-tomato-sauce-in-white-bowl (1).jpg"
     },
     {
       id:2,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 369,
-      foodImg: "assets/alex-motoc-QEbIgaxP7N8-unsplash.jpg"
+      foodName: "Macarrão com Camarão",
+      foodDetails: "Camarão, tomate e salsa",
+      foodPrice: 36,
+      foodImg: "assets/pasta-spaghetti-with-shrimps-tomato-parsley-healthy-meal-italian-food.jpg"
     },
     {
       id:3,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 149,
-      foodImg: "assets/eaters-collective-6rtm6a_aVyE-unsplash.jpg"
+      foodName: "Tagliatelle ao molho branco",
+      foodDetails: "Molho branco com ervas e milho",
+      foodPrice: 19,
+      foodImg: "assets/top-view-creamy-tagliatelle-pasta-with-herbs-corn-pot-table.jpg"
     },
     {
       id:4,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 140,
-      foodImg: "assets/aleksandra-tanasiienko-0y6eMd8vevA-unsplash.jpg"
+      foodName: "Fettucine ao molho branco com Camarão",
+      foodDetails: "Camarão e Cogumelos",
+      foodPrice: 36,
+      foodImg: "assets/fettucine-white-cream-sauce-with-shrimp-mushroom.jpg"
     },
     {
       id:5,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 105,
-      foodImg: "assets/final.jpg"
+      foodName: "Macarrão ao molho Pesto",
+      foodDetails: "Molho composto por manjericão, pinhões, alho, queijo e azeite com ervilha",
+      foodPrice: 25,
+      foodImg: "assets/tasty-appetizing-pasta-with-pesto-plate.jpg"
     },
     {
       id:6,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 219,
-      foodImg: "assets/hermes-rivera-7ld9_oZDdQs-unsplash.jpg"
+      foodName: "Marisco com Spaguetti",
+      foodDetails: "Molho de tomate com Calda de Povo e Flor comestivel",
+      foodPrice: 80,
+      foodImg: "assets/spaghetti-seafood-with-tomato-sauce-decorated-with-beautiful-ingredients.jpg"
     },
     {
       id:7,
-      foodName: "Macarrão ao molho branco",
+      foodName: "Macarrão com Azeitona roxa",
       foodDetails: "feito com um toque",
-      foodPrice: 150,
-      foodImg: "assets/ignazio-di-gangi-coCG6ZQ2XHI-unsplash.jpg"
+      foodPrice: 15,
+      foodImg: "assets/pexels-shameel-mukkath-5175547.jpg"
     },
     {
       id:8,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 208,
-      foodImg: "assets/richard-iwaki-Z-KF1eZlIXc-unsplash.jpg"
+      foodName: "Macarrão ao Molho branco",
+      foodDetails: "Molho branco com manjericão",
+      foodPrice: 15,
+      foodImg: "assets/pexels-shameel-mukkath-9499518.jpg"
     },
     {
       id:9,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 160,
-      foodImg: "assets/ronaldo-de-oliveira-tf2dNkqagyc-unsplash.jpg"
+      foodName: "Macarrão com Frango Frito",
+      foodDetails: "Frango frito acompanhada com Limão",
+      foodPrice: 50,
+      foodImg: "assets/frying-pan-spiral-macaroni-chicken-leg-meat.jpg"
     },
     {
       id:10,
-      foodName: "Macarrão ao molho branco",
-      foodDetails: "feito com um toque",
-      foodPrice: 170,
-      foodImg: "assets/sebastian-coman-photography-Zmhi-OMDVbw-unsplash.jpg"
+      foodName: "Macarrão com Queijo",
+      foodDetails: "Macarrão com Queijo cremoso e Hortelã",
+      foodPrice: 22,
+      foodImg: "assets/pexels-shameel-mukkath-5639995.jpg"
     },
+    {
+      id:11,
+      foodName: "Macarrão ao Molho de Tomate",
+      foodDetails: "Molho de Tomate com Hortelã",
+      foodPrice: 15,
+      foodImg: "assets/pexels-shameel-mukkath-5175528.jpg"
+    },
+    {
+      id:12,
+      foodName: "Macarrão ao Molho branco com Frango ",
+      foodDetails: "Molho branco com frango",
+      foodPrice: 22,
+      foodImg: "assets/pexels-shameel-mukkath-5175510.jpg"
+    }
 
   ]
 }

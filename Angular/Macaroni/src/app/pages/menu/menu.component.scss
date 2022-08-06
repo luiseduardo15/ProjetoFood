@@ -1,0 +1,29 @@
+.foodbox{
+  padding: 10px 5px;
+}
+
+.foodbox img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.foodbox h1{
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btn_pedido{
+  color: rgb(231, 173, 66);
+  background-color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+

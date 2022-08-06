@@ -1,3 +1,4 @@
+import { MenupageComponent } from './pages/menupage/menupage.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { MenuComponent } from './pages/menu/menu.component';
@@ -10,6 +11,7 @@ const routes: Routes = [
 { path: '',component:HomeComponent},
 { path: 'menu', component: MenuComponent},
 { path: 'about', component: AboutComponent},
+{ path: 'menu/:id', component: MenupageComponent},
 { path: 'contato', component: ContactComponent},
 
 ];
