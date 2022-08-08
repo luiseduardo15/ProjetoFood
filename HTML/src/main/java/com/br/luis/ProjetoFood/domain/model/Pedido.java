@@ -13,7 +13,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotBlank;
-  
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
+
+
 
 /**
  *
@@ -21,30 +23,29 @@ import javax.validation.constraints.NotBlank;
  */
 @Entity
 public class Pedido {
-    
-    @Id 
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     @ManyToOne
     private Cliente cliente;
-    
+
     @ManyToOne
     private Item item;
-    
+
     private String obs;
-    
+
     private StatusPedido status;
-    
+
     @NotBlank
     private LocalDateTime data_hora_pedido;
     private LocalDateTime data_hora_entrega;
 
     public Pedido() {
     }
-    
 
-    public Pedido(Long id, Cliente cliente, Item item, StatusPedido status,String obs, LocalDateTime data_hora_pedido, LocalDateTime data_hora_entrega) {
+    public Pedido(Long id, Cliente cliente, Item item, StatusPedido status, String obs, LocalDateTime data_hora_pedido, LocalDateTime data_hora_entrega) {
         this.id = id;
         this.cliente = cliente;
         this.item = item;
@@ -134,7 +135,7 @@ public class Pedido {
         }
         return true;
     }
-    
+
     
 }
 
