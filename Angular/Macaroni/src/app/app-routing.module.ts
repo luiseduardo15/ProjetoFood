@@ -12,7 +12,7 @@ const routes: Routes = [
 { path: 'menu', component: MenuComponent},
 { path: 'about', component: AboutComponent},
 { path: 'menu/:id', component: MenupageComponent},
-{ path: 'contato', component: ContactComponent},
+{ path: 'contact', component: ContactComponent},
 
 ];
 
