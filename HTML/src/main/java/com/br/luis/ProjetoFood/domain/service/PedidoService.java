@@ -5,10 +5,20 @@
  */
 package com.br.luis.ProjetoFood.domain.service;
 
+import com.br.luis.ProjetoFood.domain.model.Pedido;
+
 /**
  *
  * @author devsys-b
  */
 public class PedidoService {
+
+    public Pedido criar(Pedido pedido) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Pedido criar(Pedido pedido) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
