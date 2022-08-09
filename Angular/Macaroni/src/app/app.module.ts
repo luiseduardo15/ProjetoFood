@@ -22,7 +22,8 @@ import { LoginComponent } from './pages/login/login.component';
     AboutComponent,
     ContactComponent,
     MenupageComponent,
-    LoginComponent
+    LoginComponent,
+   
   ],
   imports: [
     BrowserModule,
