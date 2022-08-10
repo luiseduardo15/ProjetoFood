@@ -17,8 +17,7 @@ public class PedidoService {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public Pedido criar(Pedido pedido) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   
     }
     
-}
+

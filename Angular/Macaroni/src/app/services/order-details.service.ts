@@ -1,4 +1,4 @@
-import { CarrinhoModel } from '../pages/about/about.model';
+import { CarrinhoModel } from '../../app/pages/about/about.model';
 import {Injectable} from '@angular/core';
 
 @Injectable ({
@@ -12,7 +12,7 @@ export class OrderDetailsService {
 
   foodDetails: CarrinhoModel [] = [
 
-    new CarrinhoModel ('Luis', 1,'A', 1, 'Fettucine à Bolonhesa', 'Bolonhesa com molho de tomate', 17, "assets/pasta-fettuccine-bolognese-with-tomato-sauce-in-white-bowl (1).jpg"),
+    new CarrinhoModel ('Luis', 1,'A', 1, 'Fettucine à Bolonhesa', 'Bolonhesa com molho de tomate', 17, "/assets/pasta-fettuccine-bolognese-with-tomato-sauce-in-white-bowl (1).jpg"),
     new CarrinhoModel ('Luis', 2,'B', 2, 'Macarrão com Camarão', 'Camarão, tomate e salsa', 36, "assets/pasta-spaghetti-with-shrimps-tomato-parsley-healthy-meal-italian-food.jpg"),
     new CarrinhoModel ('Luis', 3,'C', 3, 'Tagliatelle ao Molho Branco', 'Molho branco com ervas e milho', 19,  "assets/top-view-creamy-tagliatelle-pasta-with-herbs-corn-pot-table.jpg"),
     new CarrinhoModel ('Luis', 4,'D', 4, 'Fettucine ao molho branco com Camarão', 'Camarão e Cogumelos', 36, "assets/fettucine-white-cream-sauce-with-shrimp-mushroom.jpg"),
@@ -114,7 +114,7 @@ export class OrderDetailsService {
       foodPrice: 22,
       foodImg: "assets/pexels-shameel-mukkath-5175510.jpg"
     }
-
+  
 
 }*/
 

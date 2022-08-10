@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss']
+  
 })
 export class MenuComponent implements OnInit {
 

@@ -6,7 +6,7 @@
 package com.br.luis.ProjetoFood.api.controller;
 
 
-import com.br.luis.ProjetoFood.domain.model.Item;
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
 import com.br.luis.ProjetoFood.domain.repository.ItemRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
