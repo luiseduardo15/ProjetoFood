@@ -12,18 +12,18 @@ export class OrderDetailsService {
 
   foodDetails: CarrinhoModel [] = [
 
-    new CarrinhoModel ('Luis', 1,'A', 1, 'Fettucine à Bolonhesa', 'Bolonhesa com molho de tomate', 17, "/assets/pasta-fettuccine-bolognese-with-tomato-sauce-in-white-bowl (1).jpg"),
-    new CarrinhoModel ('Luis', 2,'B', 2, 'Macarrão com Camarão', 'Camarão, tomate e salsa', 36, "assets/pasta-spaghetti-with-shrimps-tomato-parsley-healthy-meal-italian-food.jpg"),
-    new CarrinhoModel ('Luis', 3,'C', 3, 'Tagliatelle ao Molho Branco', 'Molho branco com ervas e milho', 19,  "assets/top-view-creamy-tagliatelle-pasta-with-herbs-corn-pot-table.jpg"),
-    new CarrinhoModel ('Luis', 4,'D', 4, 'Fettucine ao molho branco com Camarão', 'Camarão e Cogumelos', 36, "assets/fettucine-white-cream-sauce-with-shrimp-mushroom.jpg"),
-    new CarrinhoModel ('Luis', 5,'E', 5, 'Macarrão ao molho Pesto', 'Composto por manjericão', 25, "assets/tasty-appetizing-pasta-with-pesto-plate.jpg"),
-    new CarrinhoModel ('Luis', 6,'F', 6, 'Marisco com Spaguetti', 'Calda de Povo e Flor Comestivel', 80,  "assets/spaghetti-seafood-with-tomato-sauce-decorated-with-beautiful-ingredients.jpg"),
-    new CarrinhoModel ('Luis', 7,'G', 7, 'Macarrão com Azeitona roxa', 'feito com um toque', 15, "assets/pexels-shameel-mukkath-5175547.jpg"),
-    new CarrinhoModel ('Luis', 8,'H', 8, 'Macarrão ao Molho branco', 'Molho branco com manjericão', 15,  "assets/pexels-shameel-mukkath-9499518.jpg"),
-    new CarrinhoModel ('Luis', 9,'I', 9, 'Macarrão com Frango Frito', 'Frango frito acompanhada com Limão', 50,  "assets/frying-pan-spiral-macaroni-chicken-leg-meat.jpg"),
-    new CarrinhoModel ('Luis', 10,'J', 10, 'Macarrão com Queijo', 'Macarrão com Queijo cremoso e Hortelã', 22,  "assets/pexels-shameel-mukkath-5639995.jpg"),
-    new CarrinhoModel ('Luis', 11,'K',11, 'Macarrão ao Molho de Tomate', 'Molho de Tomate com Hortelã', 15, "assets/pexels-shameel-mukkath-5175528.jpg"),
-    new CarrinhoModel ('Luis', 12,'L',12, 'Macarrão ao Molho branco com Frango', 'Molho branco com frango', 22, "assets/pexels-shameel-mukkath-5175510.jpg"),
+    new CarrinhoModel ('Luis', 1,'A', 1, 'Fettucine à Bolonhesa', 'Bolonhesa com molho de tomate', 17.90, "/assets/pasta-fettuccine-bolognese-with-tomato-sauce-in-white-bowl (1).jpg"),
+    new CarrinhoModel ('Luis', 2,'B', 2, 'Macarrão com Camarão', 'Camarão, tomate e salsa', 30.90, "assets/pasta-spaghetti-with-shrimps-tomato-parsley-healthy-meal-italian-food.jpg"),
+    new CarrinhoModel ('Luis', 3,'C', 3, 'Tagliatelle ao Molho Branco', 'Molho branco com ervas e milho', 19.90,  "assets/top-view-creamy-tagliatelle-pasta-with-herbs-corn-pot-table.jpg"),
+    new CarrinhoModel ('Luis', 4,'D', 4, 'Fettucine ao molho branco com Camarão', 'Camarão e Cogumelos', 36.50, "assets/fettucine-white-cream-sauce-with-shrimp-mushroom.jpg"),
+    new CarrinhoModel ('Luis', 5,'E', 5, 'Macarrão ao molho Pesto', 'Composto por manjericão', 20.50, "assets/tasty-appetizing-pasta-with-pesto-plate.jpg"),
+    new CarrinhoModel ('Luis', 6,'F', 6, 'Marisco com Spaguetti', 'Calda de Povo e Flor Comestivel', 49.90,  "assets/spaghetti-seafood-with-tomato-sauce-decorated-with-beautiful-ingredients.jpg"),
+    new CarrinhoModel ('Luis', 7,'G', 7, 'Macarrão com Azeitona roxa', 'feito com um toque', 17.90, "assets/pexels-shameel-mukkath-5175547.jpg"),
+    new CarrinhoModel ('Luis', 8,'H', 8, 'Macarrão ao Molho branco', 'Molho branco com manjericão', 17.90,  "assets/pexels-shameel-mukkath-9499518.jpg"),
+    new CarrinhoModel ('Luis', 9,'I', 9, 'Macarrão com Frango Frito', 'Frango frito acompanhada com Limão', 49.90,  "assets/frying-pan-spiral-macaroni-chicken-leg-meat.jpg"),
+    new CarrinhoModel ('Luis', 10,'J', 10, 'Macarrão com Queijo', 'Macarrão com Queijo cremoso e Hortelã', 20.90,  "assets/pexels-shameel-mukkath-5639995.jpg"),
+    new CarrinhoModel ('Luis', 11,'K',11, 'Macarrão ao Molho de Tomate', 'Molho de Tomate com Hortelã', 16.90, "assets/pexels-shameel-mukkath-5175528.jpg"),
+    new CarrinhoModel ('Luis', 12,'L',12, 'Macarrão ao Molho branco com Frango', 'Molho branco com frango', 21.90, "assets/pexels-shameel-mukkath-5175510.jpg"),
 
 
   ]
@@ -114,7 +114,7 @@ export class OrderDetailsService {
       foodPrice: 22,
       foodImg: "assets/pexels-shameel-mukkath-5175510.jpg"
     }
-  
+
 
 }*/
 
